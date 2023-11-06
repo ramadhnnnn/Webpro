@@ -3,8 +3,55 @@ button{
     border: none;
 }
 
+li{
+    list-style: none;
+    margin-bottom: 28px;
+    display: flex;
+}
+ul{
+    padding-left: 0px;
+}
+
+li p{
+    color: var(--Primary-Text, #121E31);
+    /* H7 / Open Sans / Reguler 16 */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    margin-left: 5px;
+}
+
+small{
+    color: #B0B0B0;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.title-header-pd h1{
+    color: #152C5B;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
 .mt-project-detail{
     margin-top: 29px;
+    color: #152C5B;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
 }
 .set-row-project-detail{
     margin-left: 150px;
@@ -15,12 +62,22 @@ button{
     width: 643px;
     height: 500px;
     border-radius: 15px;
-    background-color: aqua;
+    background-image: url('../assets/pdkp.png');
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.set-gambar-kanan-pd{
+.set-gambar-kanan-pd:first-child{
     border-radius: 15px;
-    background-color: blue;
+    background-image: url('../assets/pdka.png');
+    background-size: cover;
+    height: 245px;
+}
+.set-gambar-kanan-pd:last-child{
+    border-radius: 15px;
+    background-image: url('../assets/pdkb.png');
+    background-size: cover;
     height: 245px;
 }
 
@@ -35,7 +92,175 @@ button{
     font-weight: 500;
     line-height: normal;
 }
+/* bars */
+.bars-pd-outer{
+    width: 596px;
+    height: 23px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: var(--Light, #EEE);
+}
+.bars-pd-inner{
+    width: 369px;
+    height: 100%;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: #3252DF;
+}
+/* bars */
 
+/*  */
+.detail-pd-tl{
+    width: 596px;
+}
+.detail-pd-tl .ic-dolars{
+    color: var(--Primary-Text, #121E31);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.bagian-bawaaaaaah-aaaaaa{
+    color: var(--Primary-Text, #121E31);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.text-detail-project-bawaaah{
+    justify-content: space-between;
+    color: var(--Secondary-Text, #717579);
+
+/* Body 2 / Open Sans / Reguler 14 */
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.text-detail-project-bawaaah li{
+    list-style:dot;
+}
+.count-project{
+    color: #3252DF;
+
+/* Body 1 / Open Sans / Bold 14 */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/*  */
+
+.set-row-four{
+    margin-top: 120px;
+}
+
+.cover-features-title{
+    display: block;
+    text-align: center;
+    line-height: 20px;
+}
+.cover-content-features{
+    justify-content:space-between;
+    
+}
+.box-content-features{
+    width: 335px;
+    height: 358px;
+    border-radius: 15px;
+    background: #FAFAFA;
+}
+.box-content-features img{
+    width:100%;
+    border-radius: 15px;
+}
+.outer-bar-features{
+    width: 319px;
+    height: 12px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background-color: #98ABFF;
+}
+.inner-bar-features{
+    width: 243.567px;
+    height: 12px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #3252DF;
+}
+.set-data-per-features{
+    padding-left: 10px;
+    padding-right: 35px;
+}
+
+.image-content-features{
+    background-image: url(../../../assets/kapal.jpeg);
+    height: 50%;
+    position: relative;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.text-image-content{
+    position: absolute;
+    top: 133px;
+    width: 335px;
+    height: 46px;
+    flex-shrink: 0;
+    background-color: rgba(21, 44, 91, 0.60);
+    color: #FAFAFA;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170%;
+    padding-left: 10px;
+    padding-top: 6px;
+}
+.set-pecents{
+    color: #6C6767;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%;
+}
+.set-price{
+    color: #1E1E1E;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170%;
+}
+
+
+
+
+
+/*  */
+.setbutton-content-bawah button{
+    color: #3252DF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    width: 192px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #3252DF;
+    background: var(--Primary---Light, #F6FBFA);
+    margin-right: 80px;
+}
+/*  */
 .box-text-about-project p{
     color: #B0B0B0;
     text-align: justify;
@@ -110,6 +335,7 @@ button{
 }
 .input-invest-type{
     height: fit-content;
+    width:320px ;
 }
 .set-inves-type-text p{
     color: #152C5B;
@@ -159,6 +385,9 @@ button{
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+.box-provit-return-inner{
+    width: 329px;
 }
 .you-will-recive{
     color: #B0B0B0;
