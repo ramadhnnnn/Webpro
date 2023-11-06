@@ -245,3 +245,51 @@ button{
     font-weight: 500;
     line-height: normal;
 }
+
+/* footer */
+footer{
+    margin-top:180px ;
+    height: 384px;
+    background-color: #232631;
+}
+.logo-footer h3{
+    color: white;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+.logo-footer p{
+    color: #E0E7FA;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.logo-footer{
+    padding-top: 100px;
+    padding-left:100px ; 
+}
+
+.content-footer{
+    padding-top: 100px;
+    margin-right: 80px;
+}
+.content-footer h4{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.content-footer ul{
+    padding-left: 0;
+}
+.content-footer ul li{
+    margin-top: 14px;
+}
