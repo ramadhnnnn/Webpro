@@ -13,7 +13,7 @@ span{
 }
 li{
     list-style: none;
-    color: #A1A1A3;
+    color: #28288c;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -277,6 +277,7 @@ footer{
 .content-footer{
     padding-top: 100px;
     margin-right: 80px;
+    
 }
 .content-footer h4{
     color: #FFF;
@@ -292,4 +293,60 @@ footer{
 }
 .content-footer ul li{
     margin-top: 14px;
+
+}
+
+
+/* nav */
+
+nav{
+    border-bottom: 1.5px solid #E5E5E5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.title-header{
+    margin-left: 96px;
+    margin-top: 4px;
+    color: #3252DF;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.title-header span{
+    color: #152C5B;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.tombol-navbar button{
+    width: 175px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #3252DF;
+    box-shadow: 0px 8px 15px 0px rgba(50, 82, 223, 0.30);
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%; /* 30.6px */
+}
+
+.set-nav-bar{
+    color: #000;
+    
+    text-align: right;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
